@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Form</title>
+</head>
+<body>
+    <form action="!#" method="post" enctype="multipart/form-data">
+        <p>Имя</p>
+        <p><input type="text" name="userName"></p>
+        <p>Пароль</p>
+        <p><input type="password" name="userPassword"></p>
+        <p>Телефон</p>
+        <p><input type="tel" name="userTel"></p>
+        <p>Пол</p>
+    <div>
+        <p><input checked type="radio" name="gender" value="men">Мужской</p>
+        <p><input type="radio" name="gender" value="woman">Женский</p>
+    </div>
+    <p>Имущество</p>
+    <p><input checked type="checkbox" name="bycikl" value="1">Велик</p>
+    <p><input type="checkbox" name="car" value="2">Машина</p>
+    <p><input type="checkbox" name="apartment" value="3">Квартира</p>
+    <p>Дополнительная информация</p>
+    <textarea name="text1" cols="30" rows="10"></textarea>
+    <p>Прикрепить фото</p>
+    <p><input type="file" name="foto"></p>
+    <p>Любимый цвет</p>
+    <select name="color">
+        <option value="red">Красный</option>
+        <option value="green">Зеленый</option>
+        <option value="yellow">Желтый</option>
+    </select>
+    <p>Действия</p>
+    <button type="submit">Отправить</button>
+    <button type="reset">Очистить</button>
+    </form>
+</body>
+</html>
